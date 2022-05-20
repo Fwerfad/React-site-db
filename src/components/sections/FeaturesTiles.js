@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Кто мы?',
+    paragraph: 'Мы команда опытных трейдеров, которые уже успели за долгие годы (с 2014) обжечься на крипто-рынке. Мы все время совершенствуемся и разрабатываем новые методики для увеличения прибыльности нашей торговли, с чем бы и хотели поделиться с нашими подписчиками.'
   };
 
   return (
@@ -71,11 +71,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
+                    Как мы начинали?
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    За первый месяц торговли нам удалось утроить свой капитал, это дало нам иллюзию того, что на рынке может заработать каждый! В следующий месяц мы потеряли весь депозит. В те времена мы не использовали никакие методы, торговали на весь депозит без стоплоссов и спускали всю свою зарплату на сделки.
+                  </p>
                 </div>
               </div>
             </div>
