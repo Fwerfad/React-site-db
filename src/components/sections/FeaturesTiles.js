@@ -43,10 +43,6 @@ const FeaturesTiles = ({
     pushLeft && 'push-left'
   );
 
-  const sectionHeader = {
-    title: 'Кто мы?',
-    paragraph: 'Мы команда опытных трейдеров, которые уже успели за долгие годы (с 2014) обжечься на крипто-рынке. Мы все время совершенствуемся и разрабатываем новые методики для увеличения прибыльности нашей торговли, с чем бы и хотели поделиться с нашими подписчиками.'
-  };
 
   return (
     <section
@@ -55,7 +51,6 @@ const FeaturesTiles = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-bottom">
@@ -71,10 +66,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Как мы начинали?
+                    Кто мы?
                   </h4>
                   <p className="m-0 text-sm">
-                    За первый месяц торговли нам удалось утроить свой капитал, это дало нам иллюзию того, что на рынке может заработать каждый! В следующий месяц мы потеряли весь депозит. В те времена мы не использовали никакие методы, торговали на весь депозит без стоплоссов и спускали всю свою зарплату на сделки.
+                    Мы команда опытных трейдеров, которые уже успели за долгие годы (с 2014) обжечься на крипто-рынке. Мы все время совершенствуемся и разрабатываем новые методики для увеличения прибыльности нашей торговли, с чем бы и хотели поделиться с нашими подписчиками.
                   </p>
                 </div>
               </div>
@@ -93,10 +88,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Как мы начинали?
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    За первый месяц торговли нам удалось утроить свой капитал, это дало нам иллюзию того, что на рынке может заработать каждый! В следующий месяц мы потеряли весь депозит. В те времена мы не использовали никакие методы, торговали на весь депозит без стоплоссов и спускали всю свою зарплату на сделки.
                     </p>
                 </div>
               </div>
@@ -115,10 +110,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                  Почему мы не сдались?
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    В один прекрасный момент судьба свела моего друга с одним выдающимся трейдером еврооблигаций, который работал в одном из коммерческих банков. Он научил нас основным правилам игры и доказал, что на рынке можно зарабатывать, используя торговую стратегию, строго контролируя риски и придерживаясь дисциплины. С тех пор мы пришли к своему собственному походу, который дает нам неплохие результаты.
                     </p>
                 </div>
               </div>
@@ -137,10 +132,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Наши методы?
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                 Наши методы торговли заключаются в использовании технического анализа, “on-chain” анализа, чтении торгового стакана и в тщательном подборе и обработке новостей рынка криптовалюты; фондового рынка и макроэкономической ситуации в мире.
                     </p>
                 </div>
               </div>
@@ -159,10 +154,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Зачем нам это?
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                   У вас может возникнуть вопрос: зачем нам нужно делиться с вами методикой, которая приносит деньги? Дело в том, что выкладывая торговые стратегии и их результаты публично, мы чувствуем большую ответственность в принятии решений и получаем мотивацию для улучшения показателей эффективности нашей торговли. Для нас этот проект служит в главной степени стимулом к получению большей прибыли.
                     </p>
                 </div>
               </div>
@@ -181,10 +176,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                   Кто наши клиенты ?
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Подписка на наш телеграмм канал подойдет, как для трейдера новичка, который не знает с чего начать изучение основ биржевой торговли, так и для профессионала, ищущего сигналы для входа в сделку и интересные паттерны на графиках. Мы расскажем, с чего лучше начать или как развить уже имеющиеся у тебя навыки трейдера и идти в ногу со временем и рынком.
                     </p>
                 </div>
               </div>
